@@ -7,7 +7,7 @@ function App() {
     <div role='main'>
       <h1>Counter App</h1>
       <button onClick={() => setCount(count + 1)}>increment counter</button>
-      <button>decrement counter</button>
+      <button onClick={() => setCount(count - 1)}>decrement counter</button>
       <div aria-label='counter display'>Count: {count}</div>
     </div>
   );
